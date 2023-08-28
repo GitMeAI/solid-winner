@@ -1,9 +1,30 @@
 ---
 title: "About"
-description: "Review feature info and customization details."
+description: "Welcome to the *premiere* destination for understanding the curious and often hilarious consequences of maternal smoky adventures. Our founder? An alcohol baby"
 ---
 
-## Intro to Jumpstart
+
+
+### Our Humble Origins
+
+It all began in the rolling hills of Singletonville, where our beloved friend was infused, while still in the womb, with a blend of natural herbs and vintage tobacco. This unique concoction gifted her with a range of superpowers: the ability to detect when brownies have an extra "herb", and an uncanny knack for cloud-spotting. Yep, you guessed it; she can spot a cumulus from a stratus a mile away!
+
+### Our Mission
+
+To celebrate the quirkiest, smokiest maternal histories worldwide, starting with our one and only, Katelyn. Do you have the lung capacity to laugh as hard as ~~Katelyn's~~ any mom did back in the day? Let's find out!
+
+### Why We're Here
+
+We're blowing the lid off the smoke signals of our ancestry! Did your mom also have a penchant for party herbs and calming tobacco? Was she more into reggae than lullabies? If you, like our Katelyn, have risen from such smoky origins, then you're in the right place. Let's laugh, share, and cloud-watch together.
+
+Remember, life's just a haze, and sometimes you just gotta roll with it!
+
+---
+
+
+
+
+<!-- ## Intro to Jumpstart
 
 This jumpstart is intended to be _just enough_ to be a functional site/blog using 11ty, and also to introduce essential 11ty features.
 
@@ -185,4 +206,4 @@ Prettier extension and update your VSCode settings to "Format on Save".
 
 However, to format template files Prettier doesn't recognize like `.njk`, you can update the "Language Mode" on the currently open file from "Nunjucks" (or other current templating language) to "HTML" to allow formatting to be applied. Then, flip it back to re-allow the syntax highlighting if needed.
 
-This is located in the VSCode bottom toolbar near the right-hand side and will display the value of the current file's detected language. Click the name to open the selector.
+This is located in the VSCode bottom toolbar near the right-hand side and will display the value of the current file's detected language. Click the name to open the selector. -->

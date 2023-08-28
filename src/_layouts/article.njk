@@ -1,0 +1,46 @@
+---
+layout: base.njk
+---
+
+{% include 'sitenav.njk' %}
+
+<header class="tdbc-hero">
+  <div class="tdbc-container">
+    <h1 class="tdbc-ink--primary tdbc-mb-none">{{ title }}</h1>
+    <p class="tdbc-lead tdbc-content-maxlength tdbc-ink--gray tdbc-mt-md tdbc-mx-auto">
+      By {{ author }} | Published on {{ publishDate }}
+    </p>
+    <h2 class="tdbc-lead tdbc-content-maxlength tdbc-ink--gray tdbc-mt-md tdbc-mx-auto">
+      {{ description }}
+    </h2>
+  </div>
+</header>
+
+<main class="tdbc-container">
+  <article class="tdbc-mx-auto tdbc-article-content">
+    {{ content | safe }}
+  </article>
+
+  <aside class="tdbc-mx-auto tdbc-aside-content">
+    {% if relatedArticles %}
+    <h3 class="tdbc-ink--primary tdbc-mb-none">Related Articles</h3>
+    <ul class="tdbc-related-articles">
+      {% for article in relatedArticles %}
+        <li><a href="{{ article.url }}">{{ article.title }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </aside>
+</main>
+
+<footer class="tdbc-footer">
+  <div class="tdbc-container">
+    <p class="tdbc-mb-none">
+      Enjoyed the article? 
+      <a href="https://twitter.com/intent/tweet?text={{ title }}&url={{ meta.url }}/{{ permalink }}">Share on Twitter</a> |
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{ meta.url }}/{{ permalink }}">Share on Facebook</a> |
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ meta.url }}/{{ permalink }}&title={{ title }}">Share on LinkedIn</a>
+    </p>
+  </div>
+</footer>
+

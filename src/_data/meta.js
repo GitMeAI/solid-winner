@@ -1,8 +1,9 @@
 module.exports = {
   url: process.env.URL || "http://localhost:8080",
-  siteName: "11ty Netlify Jumpstart",
+  siteName: "Maternal Smoke Studies",
   siteDescription:
-    "Quickly launch an 11ty-generated static site. Includes a minimal Sass framework, generated sitemap, and RSS feed.",
-  authorName: "Stephanie Eckles",
-  twitterUsername: "5t3ph", // no `@`
+    "A whimsical exploration into the curious effects of mothers' unique choices during pregnancy. Dive into our tongue-in-cheek studies and findings!",
+  authorName: "Harold B",
+  twitterUsername: "MaternalStudies", // no `@`
 };
+
